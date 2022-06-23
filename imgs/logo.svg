@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+	<title>logo-svg</title>
+	<style>
+		.s0 { fill: #42b883 } 
+		.s1 { fill: #35495e } 
+	</style>
+	<path id="Layer" class="s0" d="m128 10l-64 110-64-110h49.2l14.8 25.4 14.8-25.4z"/>
+	<path id="Layer" class="s1" d="m102.4 10l-38.4 66-38.4-66h23.6l14.8 25.4 14.8-25.4z"/>
+</svg>

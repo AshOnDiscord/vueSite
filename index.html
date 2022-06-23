@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="">
+    <div id="topAccentBar" class="bg-emerald-400 h-4"></div>
+    <div class="border-b-2 border-slate-200 sticky top-0 shadow-sm">
+      <nav
+        class="w-screen mx-auto p-6 flex justify-between items-baseline bg-white"
+      >
+        <div id="iconWithLogo" class="flex gap-4">
+          <img src="./imgs/logo.svg" width="32" height="32" />
+          <h1 class="text-2xl font-semibold text-slate-800">Vue.js</h1>
+        </div>
+        <button id="sideNav">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+            width="32"
+            height="32"
+            class="text-slate-800"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+      </nav>
+    </div>
+    <header
+      class="items-center flex flex-col py-32 text-center gap-6 h-[200vh]"
+    >
+      <h1
+        class="text-5xl font-semibold w-[min(52rem,80vw)] text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-cyan-500 leading-tight"
+      >
+        Create Reactive UIs fastesr than ever.
+      </h1>
+      <p class="text-xl mx-4 max-w-[min(40rem,90vw)] text-slate-500">
+        An approachable, performant and versatile framework for building web
+        user interfaces.
+      </p>
+      <section class="flex gap-6">
+        <a
+          class="bg-emerald-500 py-3 px-4 text-xl text-white rounded-lg shadow-sm"
+          >Get Started</a
+        >
+        <a
+          class="bg-slate-100 py-3 px-4 text-xl rounded-lg text-slate-700 shadow-sm"
+          >Documentation</a
+        >
+      </section>
+    </header>
+    <script src="script.js"></script>
+  </body>
+</html>
