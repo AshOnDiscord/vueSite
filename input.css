@@ -59,4 +59,24 @@
       @apply hidden;
     }
   }
+
+  #sideList {
+    @apply text-slate-600 w-48;
+  }
+
+  #sideList > li {
+    @apply border-b-2 py-2 text-lg;
+  }
+
+  #sideList > li ul {
+    @apply pl-4 text-slate-600 hidden;
+  }
+
+  #sideList > li li {
+    @apply py-1;
+  }
+
+  #sideList li {
+    @apply hover:text-emerald-500 transition-all;
+  }
 }

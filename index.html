@@ -8,7 +8,60 @@
     <link rel="stylesheet" href="output.css" />
   </head>
   <body class="">
-    <div id="topAccentBar" class="bg-emerald-400 h-4"></div>
+    <div
+      id="sideBar"
+      class="fixed bg-white h-screen w-screen left-0 -top-full mt-24 flex justify-center py-16 transition-all duration-500 ease-in-out opacity-0"
+    >
+      <ul id="sideList" class="flex flex-col">
+        <li class="hasDrop">
+          <button class="flex w-full justify-between">
+            <a>Docs</a
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+              class="plus h-6 w-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+              class="minus hidden h-6 w-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M18 12H6"
+              />
+            </svg>
+          </button>
+          <ul>
+            <li><a>Guide</a></li>
+            <li><a>Tutorial</a></li>
+            <li><a>Examples</a></li>
+            <li><a>Quick Start</a></li>
+            <li><a>Vue 2 Docs</a></li>
+            <li><a>Migration from Vue 2</a></li>
+          </ul>
+        </li>
+        <li><a>Playground</a></li>
+        <li><a>About</a></li>
+        <li><a>Partners</a></li>
+        <li><a>Sponsers</a></li>
+        <li><a>Blog</a></li>
+      </ul>
+    </div>
+    <div id="topAccentBar" class="bg-emerald-400 h-4 relative z-10"></div>
     <div class="border-b-2 border-slate-200 sticky top-0 shadow-sm">
       <nav
         class="w-screen mx-auto px-6 flex justify-between items-center bg-white"
