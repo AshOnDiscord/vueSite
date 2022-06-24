@@ -707,6 +707,13 @@ a {
   line-height: 1.75rem;
 }
 
+@media (min-width: 640px) {
+  #sideList > li {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
 #sideList > li ul {
   display: none;
   padding-left: 1rem;
@@ -747,20 +754,12 @@ a {
   left: 0px;
 }
 
-.top-0 {
-  top: 0px;
-}
-
-.top-\[-00vh\] {
-  top: -00vh;
-}
-
-.top-\[-100vh\] {
-  top: -100vh;
-}
-
 .-top-full {
   top: -100%;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .z-10 {
@@ -1070,10 +1069,6 @@ a {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
-}
-
-.duration-200 {
-  transition-duration: 200ms;
 }
 
 .duration-500 {

@@ -65,7 +65,7 @@
   }
 
   #sideList > li {
-    @apply border-b-2 py-2 text-lg;
+    @apply border-b-2 py-2 text-lg sm:text-xl;
   }
 
   #sideList > li ul {
